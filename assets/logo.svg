@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="MR Cocktail">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8d5a3"/>
+      <stop offset="100%" stop-color="#c9a227"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="11" fill="#0f0f0f"/>
+  <rect x="1" y="1" width="46" height="46" rx="10" fill="none" stroke="url(#gold)" stroke-width="0.75" opacity="0.45"/>
+  <path d="M24 9 L15 21.5h18L24 9z" fill="none" stroke="url(#gold)" stroke-width="1.4" stroke-linejoin="round"/>
+  <line x1="24" y1="21.5" x2="24" y2="30" stroke="url(#gold)" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M16 32.5 Q24 36 32 32.5" fill="none" stroke="url(#gold)" stroke-width="1.4" stroke-linecap="round"/>
+  <circle cx="24" cy="17" r="1.2" fill="#e8d5a3" opacity="0.9"/>
+  <text x="24" y="19.5" font-family="Georgia, 'Times New Roman', serif" font-size="6.5" font-weight="700" fill="url(#gold)" text-anchor="middle">MR</text>
+</svg>

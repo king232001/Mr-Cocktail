@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://king232001.github.io/Mr-Cocktail/sitemap.xml

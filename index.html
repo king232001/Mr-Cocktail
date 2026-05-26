@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="MR Cocktail — cocktails de fruits pour événements à Lubumbashi. Mariages, anniversaires, soirées privées et entreprises.">
+  <meta name="keywords" content="cocktail de fruits, événement, mariage, anniversaire, Lubumbashi, MR Cocktail">
+  <meta name="author" content="MR Cocktail">
+  <meta name="theme-color" content="#0f0f0f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MR Cocktail | Plus haut, plus fort">
+  <meta property="og:description" content="Cocktails de fruits premium pour vos événements à Lubumbashi.">
+  <meta property="og:image" id="ogImage" content="images/hero/hero-main.jpg">
+  <meta property="og:url" id="ogUrl" content="">
+  <meta property="og:locale" content="fr_CD">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" id="canonicalUrl" href="">
+  <title>MR Cocktail | Cocktails de fruits — Événements Lubumbashi</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=20260529">
+</head>
+<body>
+
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <img src="assets/logo.svg" alt="MR Cocktail" class="loader__logo-img" width="72" height="72">
+      <div class="loader__logo">MR <span>Cocktail</span></div>
+      <p class="loader__slogan">Plus haut, plus fort</p>
+      <div class="loader__bar"><div class="loader__progress"></div></div>
+      <p class="loader__text">Chargement...</p>
+    </div>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar__container">
+      <a href="#accueil" class="navbar__logo" aria-label="MR Cocktail Accueil">
+        <img src="assets/logo.svg" alt="" width="40" height="40" class="logo-icon">
+        <span class="logo-wordmark">
+          <span class="logo-mark">MR</span>
+          <span class="logo-text">Cocktail</span>
+        </span>
+      </a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__nav" id="navMenu">
+        <ul class="navbar__list">
+          <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+          <li><a href="#apropos" class="nav-link">À propos</a></li>
+          <li><a href="#equipe" class="nav-link">Équipe</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#galerie" class="nav-link">Galerie</a></li>
+          <li><a href="#avis" class="nav-link">Avis</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="https://wa.me/243975083780" target="_blank" rel="noopener" class="btn btn--whatsapp btn--sm navbar__wa">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero__bg" data-parallax="0.25">
+        <img src="images/hero/hero-main.jpg" alt="Cocktails de fruits premium MR Cocktail" loading="eager">
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__particles" aria-hidden="true"></div>
+      <div class="container hero__content hero__content--animate">
+        <div class="hero__panel">
+          <img src="assets/logo.svg" alt="" class="hero__brand-mark" width="52" height="52">
+          <p class="hero__eyebrow">Lubumbashi · RDC · Réservation prioritaire</p>
+          <h1 class="hero__title">
+            <span class="hero__title-main">Faites briller votre événement</span>
+            <span class="hero__title-accent">avec style</span>
+          </h1>
+          <p class="hero__tagline">Plus haut, plus fort</p>
+          <p class="hero__subtitle">Cocktails de fruits pour mariages, anniversaires, soirées privées et événements d'entreprise à Lubumbashi.</p>
+          <p class="hero__trust">Réponse rapide sur WhatsApp</p>
+          <div class="hero__actions">
+            <a href="https://wa.me/243975083780?text=Bonjour%20MR%20Cocktail%2C%20je%20veux%20bloquer%20une%20date%20pour%20mon%20%C3%A9v%C3%A9nement." target="_blank" rel="noopener" class="btn btn--primary">Bloquer ma date</a>
+            <a href="https://wa.me/243975083780" target="_blank" rel="noopener" class="btn btn--whatsapp">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+          <a href="https://www.instagram.com/mr_cocktail001/" target="_blank" rel="noopener" class="hero__instagram">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            @mr_cocktail001
+          </a>
+        </div>
+        <div class="hero__scroll">
+          <span>Découvrir</span>
+          <div class="hero__scroll-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust" aria-label="Nos engagements">
+      <div class="container">
+        <div class="scroll-row scroll-row--trust">
+          <ul class="trust__list">
+            <li class="trust__item">
+              <span class="trust__icon" aria-hidden="true">⏱</span>
+              <h3>Ponctualité</h3>
+              <p>Arrivée à l'heure, installation maîtrisée, service fluide jusqu'à la fin.</p>
+            </li>
+            <li class="trust__item">
+              <span class="trust__icon" aria-hidden="true">✨</span>
+              <h3>Présentation élégante</h3>
+              <p>Présentation soignée, service propre et image premium pour vos invités.</p>
+            </li>
+            <li class="trust__item">
+              <span class="trust__icon" aria-hidden="true">🍸</span>
+              <h3>Cocktails personnalisés</h3>
+              <p>Carte adaptée à votre événement, vos goûts et votre public.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="apropos">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Pourquoi nous choisir</span>
+          <h2 class="section__title">Cocktails de fruits pour vos événements</h2>
+          <p class="section__desc">Nous transformons un simple service cocktail de fruits en expérience premium qui valorise votre image.</p>
+        </div>
+        <div class="about__grid">
+          <div class="about__image reveal">
+            <div class="about__img-wrap">
+              <img src="images/gallery/gallery-06.jpg" alt="Service cocktail premium MR Cocktail" loading="lazy">
+              <div class="about__img-accent"></div>
+            </div>
+          </div>
+          <div class="about__content reveal">
+            <p><strong>MR Cocktail</strong> est le choix des clients exigeants à Lubumbashi: service premium, équipe réactive et exécution propre.</p>
+            <p>Vous obtenez une prestation prête à performer: cocktails personnalisés, timing respecté, présentation élégante et expérience client maîtrisée.</p>
+            <a href="https://wa.me/243975083780" target="_blank" rel="noopener" class="btn btn--outline">Recevoir une offre rapide</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team" id="equipe">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Votre équipe</span>
+          <h2 class="section__title">Des professionnels à votre service</h2>
+          <p class="section__desc">Une équipe locale, réactive et habituée aux événements exigeants à Lubumbashi.</p>
+        </div>
+        <div class="scroll-row scroll-row--team reveal">
+          <div class="team__grid">
+            <article class="team-card">
+              <img src="images/team/bartender-01.jpg" alt="Équipe cocktail MR Cocktail" loading="lazy" width="280" height="320">
+              <h3>Préparation cocktails</h3>
+              <p>Création de cartes signature et exécution haut de gamme.</p>
+            </article>
+            <article class="team-card">
+              <img src="images/team/bartender-02.jpg" alt="Service cocktail MR Cocktail" loading="lazy" width="280" height="320">
+              <h3>Service cocktail événementiel</h3>
+              <p>Service rapide, élégant et adapté à tous types de réceptions.</p>
+            </article>
+            <article class="team-card">
+              <img src="images/team/about-bartender.jpg" alt="Coordinateur MR Cocktail" loading="lazy" width="280" height="320">
+              <h3>Coordination terrain</h3>
+              <p>Organisation, timing et suivi client du brief à la livraison.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Nos offres</span>
+          <h2 class="section__title" id="tarifs">Choisissez votre formule</h2>
+          <p class="section__desc">Des packs conçus pour marquer les esprits. Tarifs indicatifs — devis final sur WhatsApp.</p>
+          <p class="scroll-hint scroll-hint--mobile">← Glissez horizontalement pour voir toutes les offres →</p>
+        </div>
+        <div class="scroll-row scroll-row--services">
+          <div class="services__grid">
+            <article class="service-card service-card--featured">
+              <span class="service-card__badge">Le plus demandé</span>
+              <div class="service-card__img">
+                <img src="images/services/mariage-vip.jpg" alt="Réception mariage VIP" loading="lazy" decoding="async">
+              </div>
+              <div class="service-card__body">
+                <h3>Mariage VIP</h3>
+                <p>Un service cocktail raffiné pour votre réception, avec carte personnalisée et service fluide.</p>
+                <div class="service-card__price">À partir de <strong>500$</strong></div>
+                <a href="https://wa.me/243975083780?text=Devis%20Mariage%20VIP" target="_blank" rel="noopener" class="btn btn--whatsapp btn--block">Demander un devis</a>
+              </div>
+            </article>
+            <article class="service-card">
+              <div class="service-card__img">
+                <img src="images/services/anniversaire.jpg" alt="Fête d'anniversaire avec gâteau" loading="lazy">
+              </div>
+              <div class="service-card__body">
+                <h3>Anniversaire</h3>
+                <p>Des cocktails visuels et une ambiance chic pour un anniversaire marquant.</p>
+                <div class="service-card__price">À partir de <strong>300$</strong></div>
+                <a href="https://wa.me/243975083780?text=Devis%20Anniversaire" target="_blank" rel="noopener" class="btn btn--whatsapp btn--block">Demander un devis</a>
+              </div>
+            </article>
+            <article class="service-card">
+              <div class="service-card__img">
+                <img src="images/services/evenement-prive.jpg" alt="Dîner événement privé" loading="lazy">
+              </div>
+              <div class="service-card__body">
+                <h3>Événement privé</h3>
+                <p>Prestation discrète, classe et calibrée selon le format de votre réception.</p>
+                <div class="service-card__price">À partir de <strong>300$</strong></div>
+                <a href="https://wa.me/243975083780?text=Devis%20%C3%89v%C3%A9nement%20priv%C3%A9" target="_blank" rel="noopener" class="btn btn--whatsapp btn--block">Demander un devis</a>
+              </div>
+            </article>
+            <article class="service-card">
+              <div class="service-card__img">
+                <img src="images/services/bartender.jpg" alt="Service cocktail professionnel en action" loading="lazy">
+              </div>
+              <div class="service-card__body">
+                <h3>Service cocktail premium</h3>
+                <p>Équipe formée, rapide et élégante pour une expérience sans attente.</p>
+                <div class="service-card__price">À partir de <strong>150$</strong></div>
+                <a href="https://wa.me/243975083780?text=Devis%20Service%20Cocktail%20Premium" target="_blank" rel="noopener" class="btn btn--whatsapp btn--block">Demander un devis</a>
+              </div>
+            </article>
+            <article class="service-card">
+              <div class="service-card__img">
+                <img src="images/services/bar-mobile.jpg" alt="Installation espace cocktail" loading="lazy">
+              </div>
+              <div class="service-card__body">
+                <h3>Espace cocktail</h3>
+                <p>Installation complète sur site: poste cocktail, verrerie, setup premium et exécution propre.</p>
+                <div class="service-card__price">À partir de <strong>500$</strong></div>
+                <a href="https://wa.me/243975083780?text=Devis%20Espace%20Cocktail" target="_blank" rel="noopener" class="btn btn--whatsapp btn--block">Demander un devis</a>
+              </div>
+            </article>
+            <article class="service-card">
+              <div class="service-card__img">
+                <img src="images/services/formation.jpg" alt="Atelier préparation cocktail" loading="lazy" decoding="async">
+              </div>
+              <div class="service-card__body">
+                <h3>Formation cocktail</h3>
+                <p>Ateliers premium pour particuliers ou équipes, orientés technique et expérience.</p>
+                <div class="service-card__price">À partir de <strong>150$</strong></div>
+                <a href="https://wa.me/243975083780?text=Devis%20Formation%20Cocktail" target="_blank" rel="noopener" class="btn btn--whatsapp btn--block">Demander un devis</a>
+              </div>
+            </article>
+            <article class="service-card">
+              <div class="service-card__img">
+                <img src="images/services/entreprise.jpg" alt="Équipe en soirée entreprise" loading="lazy">
+              </div>
+              <div class="service-card__body">
+                <h3>Soirée entreprise</h3>
+                <p>Un service corporate fiable pour valoriser votre marque devant clients et partenaires.</p>
+                <div class="service-card__price">À partir de <strong>500$</strong></div>
+                <a href="https://wa.me/243975083780?text=Devis%20Soir%C3%A9e%20Entreprise" target="_blank" rel="noopener" class="btn btn--whatsapp btn--block">Demander un devis</a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="services__cta reveal">
+          <a href="https://wa.me/243975083780?text=Bonjour%20MR%20Cocktail%2C%20je%20veux%20r%C3%A9server%20rapidement%20mon%20%C3%A9v%C3%A9nement." target="_blank" rel="noopener" class="btn btn--primary btn--lg">Réserver maintenant</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="galerie">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Galerie</span>
+          <h2 class="section__title">Nos réalisations</h2>
+          <p class="section__desc">Quelques moments capturés lors de nos prestations.</p>
+        </div>
+
+        <div class="gallery-zone">
+          <h3 class="gallery-zone__title">Cocktails signature</h3>
+          <div class="scroll-row">
+            <div class="gallery-zone__track" id="galleryGrid">
+              <div class="gallery__item" data-index="0">
+                <img src="images/cocktails/mojito.jpg" alt="Cocktail fruits frais" loading="lazy">
+                <div class="gallery__label"><span>Fruits & menthe</span></div>
+              </div>
+              <div class="gallery__item" data-index="1">
+                <img src="images/cocktails/cosmopolitan.jpg" alt="Cocktail fruits rouges" loading="lazy">
+                <div class="gallery__label"><span>Fruits rouges</span></div>
+              </div>
+              <div class="gallery__item" data-index="2">
+                <img src="images/cocktails/sunset-royal.jpg" alt="Cocktail Sunset Royal" loading="lazy">
+                <div class="gallery__label"><span>Sunset Royal</span></div>
+              </div>
+              <div class="gallery__item" data-index="3">
+                <img src="images/cocktails/martini.jpg" alt="Cocktail fruits premium" loading="lazy">
+                <div class="gallery__label"><span>Signature premium</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-zone">
+          <h3 class="gallery-zone__title">Soirées & célébrations</h3>
+          <div class="scroll-row">
+            <div class="gallery-zone__track">
+              <div class="gallery__item" data-index="4">
+                <img src="images/gallery/gallery-03.jpg" alt="Événement festif animé" loading="lazy">
+                <div class="gallery__label"><span>Événement festif</span></div>
+              </div>
+              <div class="gallery__item" data-index="5">
+                <img src="images/services/anniversaire.jpg" alt="Anniversaire avec invités" loading="lazy">
+                <div class="gallery__label"><span>Anniversaire premium</span></div>
+              </div>
+              <div class="gallery__item" data-index="6">
+                <img src="images/services/entreprise.jpg" alt="Invités en toast cocktail" loading="lazy">
+                <div class="gallery__label"><span>Célébration</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-zone">
+          <h3 class="gallery-zone__title">Dîners & réceptions</h3>
+          <div class="scroll-row">
+            <div class="gallery-zone__track">
+              <div class="gallery__item" data-index="7">
+                <img src="images/gallery/gallery-04.jpg" alt="Table dressée dîner premium" loading="lazy">
+                <div class="gallery__label"><span>Dîner premium</span></div>
+              </div>
+              <div class="gallery__item" data-index="8">
+                <img src="images/services/evenement-prive.jpg" alt="Soirée privée élégante" loading="lazy">
+                <div class="gallery__label"><span>Soirée privée</span></div>
+              </div>
+              <div class="gallery__item" data-index="9">
+                <img src="images/gallery/gallery-02.jpg" alt="Cocktails de fruits servis" loading="lazy">
+                <div class="gallery__label"><span>Cocktails premium</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox__close" id="lightboxClose" aria-label="Fermer">&times;</button>
+      <button class="lightbox__nav lightbox__prev" id="lightboxPrev" aria-label="Précédent">&#8249;</button>
+      <img class="lightbox__img" id="lightboxImg" src="" alt="">
+      <button class="lightbox__nav lightbox__next" id="lightboxNext" aria-label="Suivant">&#8250;</button>
+      <p class="lightbox__caption" id="lightboxCaption"></p>
+    </div>
+
+    <section class="section comments" id="avis">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Ce que disent nos clients</span>
+          <h2 class="section__title">Avis clients</h2>
+          <p class="section__desc">Partagez votre expérience ou découvrez les retours d'autres clients.</p>
+          <p class="comments__peek-hint">← Votre formulaire · Glissez vers la droite pour voir les avis →</p>
+        </div>
+        <div class="comments__grid reveal">
+          <form class="comments__form" id="commentForm">
+            <h3>Laisser un commentaire</h3>
+            <div class="comments__form-row comments__form-row--names">
+              <div class="form-group">
+                <label for="commentName">Prénom</label>
+                <input type="text" id="commentName" name="name" placeholder="Ex. Marie" required maxlength="40">
+              </div>
+              <div class="form-group">
+                <label for="commentEvent">Événement <span class="label-optional">(opt.)</span></label>
+                <input type="text" id="commentEvent" name="event" placeholder="Mariage..." maxlength="60">
+              </div>
+            </div>
+            <div class="comments__form-row comments__form-row--main">
+              <div class="form-group form-group--rating">
+                <label for="commentStars">Évaluation</label>
+                <div class="comment-stars" id="commentStars" role="group" aria-label="Note sur 5">
+                  <button type="button" class="comment-star" data-value="1" aria-label="1 étoile">★</button>
+                  <button type="button" class="comment-star" data-value="2" aria-label="2 étoiles">★</button>
+                  <button type="button" class="comment-star" data-value="3" aria-label="3 étoiles">★</button>
+                  <button type="button" class="comment-star" data-value="4" aria-label="4 étoiles">★</button>
+                  <button type="button" class="comment-star active" data-value="5" aria-label="5 étoiles">★</button>
+                </div>
+                <input type="hidden" id="commentRating" name="rating" value="5">
+              </div>
+              <div class="form-group form-group--text">
+                <label for="commentText">Commentaire</label>
+                <textarea id="commentText" name="text" rows="3" placeholder="Votre expérience MR Cocktail..." required maxlength="500"></textarea>
+              </div>
+            </div>
+            <label class="comments__consent">
+              <input type="checkbox" id="commentConsent" required>
+              J'accepte l'affichage de mon avis sur ce site.
+            </label>
+            <button type="submit" class="btn btn--primary btn--block">Publier mon avis</button>
+            <p class="comments__success" id="commentSuccess" hidden>Merci ! Votre avis a été publié.</p>
+          </form>
+          <div class="comments__list-wrap comments__list-wrap--highlight">
+            <span class="comments__side-badge">Avis à côté →</span>
+            <h3>Avis clients <span class="comments__arrow">→</span></h3>
+            <div class="scroll-row scroll-row--comments">
+              <ul class="comments__list" id="commentsList"></ul>
+            </div>
+            <p class="comments__empty" id="commentsEmpty" hidden>Soyez le premier à laisser un avis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps" id="reserver">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Réservation</span>
+          <h2 class="section__title">Comment réserver</h2>
+        </div>
+        <div class="scroll-row scroll-row--steps reveal">
+          <ol class="steps__list">
+            <li class="steps__item">
+              <span class="steps__num">1</span>
+              <h3>Envoyez votre brief</h3>
+              <p>Date, type d'événement, nombre d'invités et niveau de standing attendu.</p>
+            </li>
+            <li class="steps__item">
+              <span class="steps__num">2</span>
+              <h3>Recevez une offre claire</h3>
+              <p>Pack recommandé, options utiles et budget maîtrisé selon vos priorités.</p>
+            </li>
+            <li class="steps__item">
+              <span class="steps__num">3</span>
+              <h3>Validez et respirez</h3>
+              <p>On s'occupe du service. Vous profitez sereinement de votre événement.</p>
+            </li>
+          </ol>
+        </div>
+        <div class="steps__cta reveal">
+          <a href="https://wa.me/243975083780?text=Bonjour%20MR%20Cocktail%2C%20je%20souhaite%20r%C3%A9server%20un%20%C3%A9v%C3%A9nement." target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg">Réserver sur WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Questions fréquentes</span>
+          <h2 class="section__title">FAQ</h2>
+        </div>
+        <div class="faq__list reveal" id="faqList">
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              Travaillez-vous sur les mariages haut de gamme ?
+              <span class="faq__icon"></span>
+            </button>
+            <div class="faq__answer">
+              <p>Oui. Nous gérons les mariages premium avec une organisation précise. Idéalement, réservez 4 à 8 semaines à l'avance.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              Quel budget prévoir pour une prestation ?
+              <span class="faq__icon"></span>
+            </button>
+            <div class="faq__answer">
+              <p>Le budget dépend du format, du nombre d'invités et du niveau de personnalisation. Nous envoyons un devis précis sur WhatsApp.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              Intervenez-vous partout à Lubumbashi ?
+              <span class="faq__icon"></span>
+            </button>
+            <div class="faq__answer">
+              <p>Oui, nous couvrons Lubumbashi et ses environs selon le lieu et l'horaire de votre événement.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              Pouvez-vous personnaliser les cocktails ?
+              <span class="faq__icon"></span>
+            </button>
+            <div class="faq__answer">
+              <p>Absolument. Nous créons des recettes sur mesure selon votre thème, vos goûts et le profil de vos invités.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              Quels moyens de paiement acceptez-vous ?
+              <span class="faq__icon"></span>
+            </button>
+            <div class="faq__answer">
+              <p>Espèces, mobile money et virement selon votre préférence. Le détail est précisé sur votre devis.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              Vos cocktails sont-ils à base de fruits ?
+              <span class="faq__icon"></span>
+            </button>
+            <div class="faq__answer">
+              <p>Oui. Nous proposons principalement des cocktails de fruits, adaptés à tous les publics, y compris enfants.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Contact</span>
+          <h2 class="section__title">Contactez-nous</h2>
+          <p class="section__desc">Le plus rapide : WhatsApp. Réponse sous 24 h en moyenne.</p>
+        </div>
+        <div class="contact__center reveal">
+          <div class="contact__card">
+            <h3>Contact direct</h3>
+            <ul>
+              <li>
+                <span class="contact__icon">📞</span>
+                <div><strong>Téléphone</strong><a href="tel:+243975083780">+243 975 083 780</a></div>
+              </li>
+              <li>
+                <span class="contact__icon">✉️</span>
+                <div><strong>Email</strong><a href="mailto:bukasakevin24@gmail.com">bukasakevin24@gmail.com</a></div>
+              </li>
+              <li>
+                <span class="contact__icon">📷</span>
+                <div><strong>Instagram</strong><a href="https://www.instagram.com/mr_cocktail001/" target="_blank" rel="noopener">@mr_cocktail001</a></div>
+              </li>
+            </ul>
+            <a href="https://wa.me/243975083780" target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg btn--block contact__wa-big">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Demander un devis
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#accueil" class="navbar__logo footer__logo">
+          <img src="assets/logo.svg" alt="" width="44" height="44" class="logo-icon">
+          <span class="logo-wordmark">
+            <span class="logo-mark">MR</span>
+            <span class="logo-text">Cocktail</span>
+          </span>
+        </a>
+        <p class="footer__slogan">Plus haut, plus fort</p>
+        <p>Cocktails de fruits pour vos événements à Lubumbashi.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/mr_cocktail001/" target="_blank" rel="noopener" aria-label="Instagram @mr_cocktail001" class="social-link social-link--ig">IG</a>
+          <a href="https://wa.me/243975083780" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-link social-link--wa">WA</a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#equipe">Équipe</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__cta">
+        <h4>Passez à l'action</h4>
+        <a href="https://wa.me/243975083780" target="_blank" rel="noopener" class="btn btn--whatsapp btn--block">Lancer ma réservation</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p class="footer__legal">Avis stockés localement sur votre appareil. Données utilisées uniquement pour la relation client.</p>
+        <p>&copy; 2026 MR Cocktail. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <nav class="mobile-bar" aria-label="Actions rapides">
+    <a href="#services" class="mobile-bar__link">Offres</a>
+    <a href="https://wa.me/243975083780?text=Bonjour%20MR%20Cocktail%2C%20je%20souhaite%20r%C3%A9server." target="_blank" rel="noopener" class="mobile-bar__link mobile-bar__link--cta">Réserver</a>
+    <a href="#contact" class="mobile-bar__link">Contact</a>
+  </nav>
+
+  <a href="https://wa.me/243975083780" target="_blank" rel="noopener" class="whatsapp-float" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/config.js"></script>
+  <script src="js/script.js?v=20260528"></script>
+</body>
+</html>
